@@ -4,9 +4,9 @@ struct FeatureCard: View {
     var product: Product
 
     var body: some View {
-        product.featureImage?
+        product.image
             .resizable()
-            .aspectRatio(3 / 2, contentMode: .fit)
+            .aspectRatio(2 / 2, contentMode: .fit)
             .overlay(TextOverlay(product: product))
     }
 }

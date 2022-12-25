@@ -15,6 +15,7 @@ struct Product: Hashable, Codable, Identifiable {
         case maszynki = "Maszynki"
         case igly = "Igly"
         case cartridge = "Kartdrize"
+        case griptape = "Griptape"
 
     }
     

@@ -28,6 +28,7 @@ struct LandmarkRow_Previews: PreviewProvider {
         Group {
             LandmarkRow(product: products[0])
             LandmarkRow(product: products[1])
+            LandmarkRow(product: products[3])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
