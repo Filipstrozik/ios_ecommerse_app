@@ -1,23 +1,23 @@
 import SwiftUI
 
 struct CategoryHome: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var modelProductData: ModelProductData
     @State private var showingProfile = false
     
     var body: some View {
         NavigationView {
             List {
-                PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
+                PageView(pages: modelProductData.features.map { FeatureCard(product: $0) })
                     .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 
-                ForEach(modelData.categories.keys.sorted(), id: \.self) { key in
-                    CategoryRow(categoryName: key, items: modelData.categories[key]!)
+                ForEach(modelProductData.categories.keys.sorted(), id: \.self) { key in
+                    CategoryRow(categoryName: key, items: modelProductData.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets())
             }
             .listStyle(InsetListStyle())
-            .navigationTitle("Featured")
+            .navigationTitle("Polecane")
             
             .toolbar {
                 Button(action: { showingProfile.toggle() }) {
@@ -28,7 +28,7 @@ struct CategoryHome: View {
             
             .sheet(isPresented: $showingProfile) {
                 ProfileHost()
-                    .environmentObject(modelData)
+                    .environmentObject(modelProductData)
             }
         }
     }
@@ -37,6 +37,6 @@ struct CategoryHome: View {
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {
         CategoryHome()
-            .environmentObject(ModelData())
+            .environmentObject(ModelProductData())
     }
 }

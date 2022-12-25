@@ -2,7 +2,7 @@ import SwiftUI
 
 struct CategoryRow: View {
     var categoryName: String
-    var items: [Landmark]
+    var items: [Product]
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -13,9 +13,9 @@ struct CategoryRow: View {
             
             ScrollView(.horizontal, showsIndicators: true) {
                 HStack(alignment: .top, spacing: 0.0) {
-                    ForEach(items) { landmark in
-                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
-                            CategoryItem(landmark: landmark)
+                    ForEach(items) { product in
+                        NavigationLink(destination: LandmarkDetail(product: product)) {
+                            CategoryItem(product: product)
                         }
                     }
                 }
@@ -26,12 +26,12 @@ struct CategoryRow: View {
 }
 
 struct CategoryRow_Previews: PreviewProvider {
-    static var landmarks = ModelData().landmarks
+    static var products = ModelProductData().products
 
     static var previews: some View {
         CategoryRow(
-            categoryName: landmarks[0].category.rawValue,
-            items: Array(landmarks.prefix(4))
+            categoryName: products[0].category.rawValue,
+            items: Array(products.prefix(4))
         )
     }
 }

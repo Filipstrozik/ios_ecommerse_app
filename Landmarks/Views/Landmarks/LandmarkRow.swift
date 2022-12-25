@@ -1,19 +1,19 @@
 import SwiftUI
 
 struct LandmarkRow: View {
-    var landmark: Landmark
+    var product: Product
     
     var body: some View {
         HStack {
-            landmark.image
+            product.image
                 .resizable()
                 .frame(width: 50, height: 50)
             
-            Text(landmark.name)
+            Text(product.name)
             
             Spacer()
             
-            if landmark.isFavorite {
+            if product.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)
             }
@@ -22,12 +22,12 @@ struct LandmarkRow: View {
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
-    static var landmarks = ModelData().landmarks
+    static var products = ModelProductData().products
 
     static var previews: some View {
         Group {
-            LandmarkRow(landmark: landmarks[0])
-            LandmarkRow(landmark: landmarks[1])
+            LandmarkRow(product: products[0])
+            LandmarkRow(product: products[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }

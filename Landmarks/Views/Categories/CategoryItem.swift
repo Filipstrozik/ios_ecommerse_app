@@ -1,17 +1,17 @@
 import SwiftUI
 
 struct CategoryItem: View {
-    var landmark: Landmark
+    var product: Product
     
     var body: some View {
         VStack(alignment: .leading) {
-            landmark.image
+            product.image
                 .renderingMode(.original)
                 .resizable()
                 .frame(width: 155, height: 155)
                 .cornerRadius(5)
             
-            Text(landmark.name)
+            Text(product.name)
                 .foregroundColor(.primary)
                 .font(.caption)
         }
@@ -21,6 +21,6 @@ struct CategoryItem: View {
 
 struct CategoryItem_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryItem(landmark: ModelData().landmarks[0])
+        CategoryItem(product: ModelProductData().products[0])
     }
 }

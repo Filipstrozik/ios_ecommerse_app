@@ -12,13 +12,13 @@ struct ContentView: View {
         TabView(selection: $selection) {
             CategoryHome()
                 .tabItem {
-                    Label("Featured", systemImage: "star")
+                    Label("Polecane", systemImage: "star")
                 }
                 .tag(Tab.featured)
             
             LandmarkList()
                 .tabItem {
-                    Label("List", systemImage: "list.bullet")
+                    Label("Lista", systemImage: "list.bullet")
                 }
                 .tag(Tab.list)
         }
@@ -28,6 +28,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(ModelData())
+            .environmentObject(ModelProductData())
+        
     }
 }
