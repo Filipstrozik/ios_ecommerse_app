@@ -14,10 +14,11 @@ struct LandmarkDetail: View {
 //                .ignoresSafeArea(edges: .top)
 //                .frame(height: 300)
             
-            CircleImage(image: product.image)
-                .offset(y: -130)
-                .padding(.bottom, -130)
+//            CircleImage(image: product.image)
+//                .offset(y: -60)
+//                .padding(.bottom, -130)
                 
+            Image(product.imageName).resizable().frame(width: 400, height: 400)
             VStack(alignment: .leading) {
                 HStack {
                     Text(product.name)

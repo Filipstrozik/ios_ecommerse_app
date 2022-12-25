@@ -13,7 +13,11 @@ struct CategoryItem: View {
             
             Text(product.name)
                 .foregroundColor(.primary)
-                .font(.caption)
+                .font(.headline)
+            
+            Text("\(String(format: "%.2f", product.price))")
+                .foregroundColor(.primary)
+                .font(.subheadline)
         }
         .padding(.leading, 15)
     }

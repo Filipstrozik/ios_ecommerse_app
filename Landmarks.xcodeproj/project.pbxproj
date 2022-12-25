@@ -182,11 +182,11 @@
 		4ADA7DC126E7FEA90006F3EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6034E12E295889630039E3C3 /* ModelProductData.swift */,
 				4ADA7DBC26E7FA400006F3EA /* Landmark.swift */,
 				4ADA7DBE26E7FC710006F3EA /* ModelData.swift */,
 				4A9D2CD826EAB642005D38CF /* Profile.swift */,
 				6034E12C295887590039E3C3 /* Product.swift */,
-				6034E12E295889630039E3C3 /* ModelProductData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
