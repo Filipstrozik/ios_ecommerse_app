@@ -8,7 +8,7 @@ struct CategoryHome: View {
         NavigationView {
             List {
                 PageView(pages: modelProductData.features.map { FeatureCard(product: $0) })
-                    .aspectRatio(3 / 2, contentMode: .fit)
+                    .aspectRatio(2 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 
                 ForEach(modelProductData.categories.keys.sorted(), id: \.self) { key in

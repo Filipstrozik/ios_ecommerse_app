@@ -9,7 +9,7 @@ struct CategoryRow: View {
             Text(categoryName)
                 .font(.title)
                 .padding(.leading, 15.0)
-                .padding(.top, 5)
+                .padding(.vertical, 15.0)
             
             ScrollView(.horizontal, showsIndicators: true) {
                 HStack(alignment: .top, spacing: 0.0) {
@@ -21,7 +21,7 @@ struct CategoryRow: View {
                 }
             }
             .frame(height: 185)
-        }
+        }.padding(.vertical, 15.0)
     }
 }
 

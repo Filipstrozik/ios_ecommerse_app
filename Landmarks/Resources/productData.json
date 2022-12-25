@@ -34,7 +34,7 @@
         "category": "Griptape",
         "id": 1004,
         "price": 6.49,
-        "isFeatured": false,
+        "isFeatured": true,
         "isFavorite": false,
         "description": "Taśma do owijania rur oraz gripów maszynek. GRIP TAPE, elastyczny bandaż , który zapewnia pewniejszy chwyt maszynki. 4,5m x 5cm",
         "imageName": "griptape"
