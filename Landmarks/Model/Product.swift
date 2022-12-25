@@ -10,7 +10,6 @@ struct Product: Hashable, Codable, Identifiable {
     var description: String
     var isFavorite: Bool
     var isFeatured: Bool
-    
     var category: Category
     enum Category: String, CaseIterable, Codable {
         case maszynki = "Maszynki"
