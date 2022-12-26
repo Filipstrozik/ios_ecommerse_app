@@ -18,6 +18,6 @@ struct PageView<Page: View>: View {
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
         PageView(pages: ModelProductData().features.map { FeatureCard(product: $0) })
-            .aspectRatio(3 / 2, contentMode: .fit)
+            .aspectRatio(2 / 2, contentMode: .fit)
     }
 }

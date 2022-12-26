@@ -4,10 +4,13 @@ struct FeatureCard: View {
     var product: Product
 
     var body: some View {
-        product.image
-            .resizable()
-            .aspectRatio(2 / 2, contentMode: .fit)
-            .overlay(TextOverlay(product: product))
+        NavigationLink(destination: LandmarkDetail(product: product)) {
+            product.image
+                .resizable()
+                .aspectRatio(2 / 2, contentMode: .fit)
+                .overlay(TextOverlay(product: product))
+        }
+
     }
 }
 

@@ -5,22 +5,36 @@ struct ContentView: View {
     
     enum Tab {
         case featured
+        case search
         case list
+        case favourite
     }
     
     var body: some View {
         TabView(selection: $selection) {
             CategoryHome()
                 .tabItem {
-                    Label("Polecane", systemImage: "star")
+                    Label("Polecane", systemImage: "heart")
                 }
                 .tag(Tab.featured)
             
+            SearchHome()
+                .tabItem {
+                    Label("Wyszukaj", systemImage: "magnifyingglass")
+                }
+                .tag(Tab.search)
+            
             LandmarkList()
                 .tabItem {
-                    Label("Lista", systemImage: "list.bullet")
+                    Label("Kategorie", systemImage: "list.bullet")
                 }
                 .tag(Tab.list)
+            
+            FavouriteHome()
+                .tabItem {
+                    Label("Ulubione", systemImage: "star")
+                }
+                .tag(Tab.favourite)
         }
     }
 }
