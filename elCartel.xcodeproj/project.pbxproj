@@ -49,7 +49,7 @@
 		4A9D2CE426EBBC8B005D38CF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		4A9D2CE626EBC1EC005D38CF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		4A9D2CE826EBD6F2005D38CF /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		4ADA7DA426E7D2D90006F3EA /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADA7DA426E7D2D90006F3EA /* elCartel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elCartel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADA7DA726E7D2D90006F3EA /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		4ADA7DA926E7D2D90006F3EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4ADA7DAB26E7D2DD0006F3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		4ADA7DA526E7D2D90006F3EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4ADA7DA426E7D2D90006F3EA /* Landmarks.app */,
+				4ADA7DA426E7D2D90006F3EA /* elCartel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4ADA7DA326E7D2D90006F3EA /* Landmarks */ = {
+		4ADA7DA326E7D2D90006F3EA /* elCartel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4ADA7DB326E7D2DD0006F3EA /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildConfigurationList = 4ADA7DB326E7D2DD0006F3EA /* Build configuration list for PBXNativeTarget "elCartel" */;
 			buildPhases = (
 				4ADA7DA026E7D2D90006F3EA /* Sources */,
 				4ADA7DA126E7D2D90006F3EA /* Frameworks */,
@@ -244,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = Landmarks;
+			name = elCartel;
 			productName = Landmarks;
-			productReference = 4ADA7DA426E7D2D90006F3EA /* Landmarks.app */;
+			productReference = 4ADA7DA426E7D2D90006F3EA /* elCartel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4ADA7D9F26E7D2D90006F3EA /* Build configuration list for PBXProject "Landmarks" */;
+			buildConfigurationList = 4ADA7D9F26E7D2D90006F3EA /* Build configuration list for PBXProject "elCartel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,7 +276,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4ADA7DA326E7D2D90006F3EA /* Landmarks */,
+				4ADA7DA326E7D2D90006F3EA /* elCartel */,
 			);
 		};
 /* End PBXProject section */
@@ -493,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4ADA7D9F26E7D2D90006F3EA /* Build configuration list for PBXProject "Landmarks" */ = {
+		4ADA7D9F26E7D2D90006F3EA /* Build configuration list for PBXProject "elCartel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4ADA7DB126E7D2DD0006F3EA /* Debug */,
@@ -502,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4ADA7DB326E7D2DD0006F3EA /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+		4ADA7DB326E7D2DD0006F3EA /* Build configuration list for PBXNativeTarget "elCartel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4ADA7DB426E7D2DD0006F3EA /* Debug */,
