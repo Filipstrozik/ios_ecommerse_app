@@ -174,9 +174,9 @@
 		4ADA7DC026E7FEA20006F3EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4ADA7DA926E7D2D90006F3EA /* ContentView.swift */,
 				606E4B972959B7EA009FF084 /* Favourite */,
 				606E4B942959A270009FF084 /* Search */,
-				4ADA7DA926E7D2D90006F3EA /* ContentView.swift */,
 				4A9D2CD026E9C3B0005D38CF /* Landmarks */,
 				4A9D2CCF26E9C3A4005D38CF /* Helpers */,
 				4A9D2CD126E9C3C0005D38CF /* Categories */,

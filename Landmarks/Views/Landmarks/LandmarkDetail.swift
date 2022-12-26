@@ -29,9 +29,12 @@ struct LandmarkDetail: View {
                 }
                 
                 HStack {
-//                    Text(product.park)
+                    Text("\(String(format: "%.2f", product.price)) PLN")
+                        .fontWeight(.bold)
+                        .foregroundColor(.primary)
+                        .font(.title3)
+                        .multilineTextAlignment(.trailing)
                     Spacer()
-//                    Text(product.state)
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)

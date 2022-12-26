@@ -11,12 +11,19 @@ struct LandmarkRow: View {
             
             Text(product.name)
             
-            Spacer()
+            
             
             if product.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)
             }
+            Spacer()
+            
+            Text("\(String(format: "%.2f", product.price)) PLN")
+                .font(.headline)
+                .fontWeight(.bold)
+                .foregroundColor(.primary)
+                .multilineTextAlignment(.trailing)
         }
     }
 }
