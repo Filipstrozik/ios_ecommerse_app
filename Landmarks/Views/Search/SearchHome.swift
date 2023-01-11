@@ -35,8 +35,8 @@ struct SearchHome: View {
                             LandmarkRow(product: product)
                         }
                     }
-                }
-                    .listStyle(GroupedListStyle())
+                }.listStyle(InsetListStyle())
+//                    .listStyle(GroupedListStyle())
                     .navigationTitle(searching ? "Szukanie" : "Szukaj")
                     .toolbar {
                         if searching {

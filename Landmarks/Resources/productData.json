@@ -38,5 +38,105 @@
         "isFavorite": false,
         "description": "Taśma do owijania rur oraz gripów maszynek. GRIP TAPE, elastyczny bandaż , który zapewnia pewniejszy chwyt maszynki. 4,5m x 5cm",
         "imageName": "griptape"
+    },
+    {
+        "name": "0.35 mm 3RS Shader 10 szt.",
+        "category": "Cartridge",
+        "id": 1005,
+        "price": 52.90,
+        "isFeatured": true,
+        "isFavorite": false,
+        "description": "Jaki powinien być kartridż do tatuażu? Z pewnością dobrze dobrany do potrzeb. Igły RS El Cartel doskonale sprawdzają się w trakcie wykonywania cieni i wypełnień. Znajdują zastosowanie zwłaszcza podczas tworzenia kształtów geometrycznych wymagających precyzji. Takie cartridge to tatuaży łączy w sobie świetną jakość wykonania z innowacyjną konstrukcją, co przekłada się na jakość tatuaży",
+        "imageName": "cartridge035mm3rs"
+    },
+    {
+        "name": "0.35 mm 5RS Shader 10 szt.",
+        "category": "Cartridge",
+        "id": 1006,
+        "price": 56.90,
+        "isFeatured": true,
+        "isFavorite": false,
+        "description": "Jest to sprzęt uniwersalny, który doskonale pasuje do wszystkich rodzajów maszynek. Posiada innowacyjną konstrukcję, co znacznie poprawia komfort użytkowania. W przypadku oferowanego produktu ważna jest dbałość o bezpieczeństwo. Zapewnia ją specjalna membrana. Dzięki niej nie ma ryzyka, że krew i resztki farby zanieczyszczą maszynkę. W tym przypadku średnica igieł 0.35 mm zapewnia wprowadzanie dość dużej ilości farby.",
+        "imageName": "cartridge035mm5rs"
+    },
+    {
+        "name": "0.35 mm 9RS Shader 10 szt.",
+        "category": "Cartridge",
+        "id": 1007,
+        "price": 60.90,
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "W przypadku tego modelu średnica igieł 0.35 mm pozwala na wprowadzanie dość dużej ilości tuszu, ale bez bardzo mocnego uszkadzania skóry. Jednocześnie igły kartridż do tatuażu 9RS są produktami w pełni bezpiecznymi. Świadczy o tym m.in. zastosowanie specjalnej membrany blokującej. Jej zadanie polega na powstrzymaniu drobinek krwi i farby przed dostaniem się do maszynki. Jest ona jednocześnie elastyczna i bardzo wytrzymała. Sam kartridż będzie też wygodny w wymianie. Produkt pakowany jest po 10 szt.",
+        "imageName": "cartridge035mm9rs"
+    },
+    {
+        "name": "0.30 9 Magnum 10 szt.",
+        "category": "Cartridge",
+        "id": 1008,
+        "price": 56.90,
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "Cieniowanie i wypełnianie dużych powierzchni wymaga odpowiedniego kartridża do tatuażu. Produkty z serii Magnum są pozytywnie oceniane i poleca je wielu fachowców. Prezentowane cartridge do tatuaży zostały bowiem dokładnie zaprojektowane po to, żeby świetnie spełniać swoje zadania. Posiadają bardzo nowatorską budowę i są wykonywane z doskonałej jakości materiałów.",
+        "imageName": "cartridge030mag9"
+    },
+    {
+        "name": "0.30 11 Magnum 10 szt.",
+        "category": "Cartridge",
+        "id": 1008,
+        "price": 53.90,
+        "isFeatured": true,
+        "isFavorite": false,
+        "description": "Typowa średnica igieł 0.30 mm pozwala na dość szybkie pokrywanie powierzchni tuszem. Jednocześnie oszczędza skórę przed trudnymi do wygojenia ranami. Igły kartridż do tatuażu 11 są uniwersalne, bo można je wykorzystywać w bardzo różnych maszynkach. Poza tym wymiana zużytej igły jest łatwa i można jej szybko dokonać.",
+        "imageName": "cartridge030mag11"
+    },
+    {
+        "name": "0.30 19 Magnum LT 10 szt.",
+        "category": "Cartridge",
+        "id": 1008,
+        "price": 69.90,
+        "isFeatured": true,
+        "isFavorite": false,
+        "description": "Dość duża średnica igieł 0.35 mm zapewnia szybką i skuteczną aplikację tuszu. Jednocześnie igły kartridż do tatuażu 19 LT są uniwersalne. Można je wykorzystywać we wszystkich maszynkach. Ponadto ich wymiana nie jest trudna, co również pozytywnie wpływa na funkcjonalność tych modeli. W końcu dba się tutaj również o bezpieczeństwo: między innymi dzięki zastosowaniu specjalnej membrany.",
+        "imageName": "cartridge030mag19"
+    },
+    {
+        "name": "0.35 9 Soft Edge Magnum 25 szt.",
+        "category": "Igly",
+        "id": 1009,
+        "price": 51.70,
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "Rodzaj igieł Soft Edge Magnum jest przeznaczony do tworzenia gradacji i łagodnych przejść kolorystycznych. Igły są ułożone w kształt łuku ze skrajnymi igłami cofniętymi do środka. To one sprawiają, że uzyskanie efektu fadingu to nic trudnego. Igły do tatuażu 0,35 9 Soft Edge Magnum nie wywołują na ciele żadnych reakcji alergicznych. Jest to zasługa zastosowanych komponentów. Zestaw obejmuje 25 sztuk",
+        "imageName": "igla035sem9"
+    },
+    {
+        "name": "0.35 9 Flat 25 szt.",
+        "category": "Igly",
+        "id": 1010,
+        "price": 51.70,
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "Rodzaj igieł Flat służy do wykonywania cieni i konturów. Igły ułożone są w jednym rzędzie na płasko. Wykorzystać je można również do wypełnienia dużych powierzchni. Z tego rodzaju igłami należy postępować bardzo ostrożnie. Delikatne rozcięcie skóry to jedynie ułamek sekundy. Igły do tatuażu El Cartel 0,35 9 Flat wykonano z wysokiej jakości materiałów. Atutem jest to, że nie wywołują one żadnych podrażnień. Na ciele nie pojawiają się również reakcje alergiczne.",
+        "imageName": "igla035flat9"
+    },
+    {
+        "name": "0.35 mm 1RL Liner 10 szt.",
+        "category": "Cartridge",
+        "id": 1011,
+        "price": 51.91,
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "W przypadku produktów El Cartel średnica igieł 0.35 mm pozwala na dość szybką pracę przy tworzeniu linii i konturów. Igły kartridż do tatuażu 1 RL to także wyposażenie, które powstaje z myślą i bezpieczeństwie i zachowaniu higieny. Wykorzystano w ich przypadku specjalną membranę - jej zadaniem jest zabezpieczenie części maszynki przed przedostaniem się krwi lub drobinek farby. W konsekwencji dzięki igłom El Cartel klient może czuć się bezpiecznie.",
+        "imageName": "cartridge035mm1rl"
+    },
+    {
+        "name": "0.35 mm 3RL Liner 10 szt.",
+        "category": "Cartridge",
+        "id": 1012,
+        "price": 51.91,
+        "isFeatured": false,
+        "isFavorite": false,
+        "description": "W przypadku tego modelu średnica igieł 0.35 mm pozwala na stosunkowo sprawne tatuowanie powierzchni. Igły kartridż do tatuażu 3 RL są przy tym pomyślane nie tylko tak, aby dawały komfort profesjonalistom. Podczas ich projektowania zwrócono również uwagę na zapewnienie higieny i bezpieczeństwa tatuowanym osobom. Stąd obecność specjalnej membrany, która jest trwała i elastyczna jednocześnie. Dzięki niej nie ma ryzyka, że drobinki krwi i farby przenikają do części maszynki.",
+        "imageName": "cartridge035mm3rl"
     }
 ]

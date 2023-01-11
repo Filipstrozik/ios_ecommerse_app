@@ -14,7 +14,7 @@ struct Product: Hashable, Codable, Identifiable {
     enum Category: String, CaseIterable, Codable {
         case maszynki = "Maszynki"
         case igly = "Igly"
-        case cartridge = "Kartdrize"
+        case cartridge = "Cartridge"
         case griptape = "Griptape"
 
     }

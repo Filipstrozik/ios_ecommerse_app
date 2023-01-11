@@ -24,7 +24,7 @@ struct LandmarkList: View {
                     //                    CategoryRow(categoryName: key, items: modelData.categories[key]!)
 
                 }
-            }
+            }.listStyle(InsetListStyle())
             .navigationTitle("Kategorie")
         }
 //                NavigationView {

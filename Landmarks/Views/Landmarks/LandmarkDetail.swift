@@ -40,9 +40,6 @@ struct LandmarkDetail: View {
                 .foregroundColor(.secondary)
                 
                 Divider()
-                
-                Text("About \(product.name)")
-                    .font(.title2)
                 Text(product.description)
             }
             .padding()

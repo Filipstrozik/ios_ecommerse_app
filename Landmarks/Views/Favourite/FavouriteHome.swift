@@ -17,7 +17,7 @@ struct FavouriteHome: View {
                                 LandmarkRow(product: product)
                             }
                         }
-                    }
+                    } .listStyle(InsetListStyle())
                     .navigationTitle("Ulubione")
                 }
     }
