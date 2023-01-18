@@ -18,18 +18,17 @@ struct CategoryHome: View {
             }
             .listStyle(InsetListStyle())
             .navigationTitle("Polecane")
-            
-//            .toolbar {
-//                Button(action: { showingProfile.toggle() }) {
-//                    Image(systemName: "person.crop.circle")
-//                        .accessibilityLabel("User Profile")
-//                }
-//            }
-//
-//            .sheet(isPresented: $showingProfile) {
-//                ProfileHost()
-//                    .environmentObject(modelProductData)
-//            }
+            .toolbar {
+                Button(action: { showingProfile.toggle() }) {
+                    Image(systemName: "cart")
+                        .accessibilityLabel("Shopping Cart")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+                    .environmentObject(modelProductData)
+            }
+
         }
     }
 }

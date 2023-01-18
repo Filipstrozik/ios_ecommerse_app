@@ -5,8 +5,9 @@ struct Profile {
     var prefersNotification = true
     var seasonalPhoto = Season.winter
     var goalDate = Date()
+    var products: [Product];
     
-    static let `default` = Profile(username: "Mike")
+    static let `default` = Profile(username: "Cart", products: [])
     
     enum Season: String, CaseIterable, Identifiable {
         case spring = "🌷"

@@ -2,7 +2,7 @@ import SwiftUI
 
 struct FavouriteHome: View {
     @EnvironmentObject var modelData: ModelProductData
-    
+    @State private var showingProfile = false
     var filteredLandmarks: [Product] {
         modelData.products.filter { product in
              product.isFavorite
@@ -19,6 +19,16 @@ struct FavouriteHome: View {
                         }
                     } .listStyle(InsetListStyle())
                     .navigationTitle("Ulubione")
+                    .toolbar {
+                        Button(action: { showingProfile.toggle() }) {
+                            Image(systemName: "cart")
+                                .accessibilityLabel("Shopping Cart")
+                        }
+                    }
+                    .sheet(isPresented: $showingProfile) {
+                        ProfileHost()
+                            .environmentObject(modelData)
+                    }
                 }
     }
     

@@ -20,25 +20,31 @@ struct LandmarkDetail: View {
                 
             Image(product.imageName).resizable().frame(width: 400, height: 400)
             VStack(alignment: .leading) {
-                HStack {
-                    Text(product.name)
-                        .font(.title)
-                        .foregroundColor(.primary)
-                    
-                    FavoriteButton(isSet: $modelData.products[productIndex].isFavorite)
+                VStack {
+                    HStack {
+                        Text(product.name)
+                            .font(.title)
+                            .foregroundColor(.primary)
+                        
+                        FavoriteButton(isSet: $modelData.products[productIndex].isFavorite)
+
+                    }
+      
+                    HStack {
+                        Text("\(String(format: "%.2f", product.price)) PLN")
+                            .fontWeight(.bold)
+                            .foregroundColor(.primary)
+                            .font(.title3)
+                            .multilineTextAlignment(.trailing)
+                        Spacer()
+                        Button(action: {modelData.profile.products.append(product)}) {
+                            Label("", systemImage: "cart.badge.plus")
+                        }.buttonStyle(.bordered)
+                            .controlSize(.large)
+                    }
+                    .font(.subheadline)
                 }
-                
-                HStack {
-                    Text("\(String(format: "%.2f", product.price)) PLN")
-                        .fontWeight(.bold)
-                        .foregroundColor(.primary)
-                        .font(.title3)
-                        .multilineTextAlignment(.trailing)
-                    Spacer()
-                }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-                
+
                 Divider()
                 Text(product.description)
             }
@@ -47,6 +53,7 @@ struct LandmarkDetail: View {
         .navigationTitle(product.name)
         .navigationBarTitleDisplayMode(.inline)
     }
+    
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {

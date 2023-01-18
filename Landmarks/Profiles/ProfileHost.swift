@@ -15,8 +15,8 @@ struct ProfileHost: View {
                     }
                 }
                 
-                Spacer()
-                EditButton()
+//                Spacer()
+//                EditButton()
             }
             
             if editMode?.wrappedValue == .inactive {
