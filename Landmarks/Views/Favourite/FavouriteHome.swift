@@ -20,6 +20,8 @@ struct FavouriteHome: View {
                     } .listStyle(InsetListStyle())
                     .navigationTitle("Ulubione")
                     .toolbar {
+                        Text("\(String(modelData.profile.products.map{$0.price}.reduce(0,+))) PLN"
+                        )
                         Button(action: { showingProfile.toggle() }) {
                             Image(systemName: "cart")
                                 .accessibilityLabel("Shopping Cart")

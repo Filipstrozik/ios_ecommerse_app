@@ -11,7 +11,8 @@ struct ProfileSummary: View {
                     Text(profile.username)
                         .bold()
                         .font(.title)
-                    Text(String(profile.products.map{$0.price}.reduce(0, +))).font(.title).fontWeight(.bold)
+                    Text("\(String(profile.products.map{$0.price}.reduce(0,+))) PLN"
+                    ).font(.title).fontWeight(.bold)
                 }
                 NavigationView{
                     List {

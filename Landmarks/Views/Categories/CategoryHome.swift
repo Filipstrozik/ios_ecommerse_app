@@ -19,6 +19,8 @@ struct CategoryHome: View {
             .listStyle(InsetListStyle())
             .navigationTitle("Polecane")
             .toolbar {
+                Text("\(String(modelProductData.profile.products.map{$0.price}.reduce(0,+))) PLN"
+                )
                 Button(action: { showingProfile.toggle() }) {
                     Image(systemName: "cart")
                         .accessibilityLabel("Shopping Cart")

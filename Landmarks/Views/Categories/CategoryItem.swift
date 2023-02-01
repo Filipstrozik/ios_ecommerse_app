@@ -15,7 +15,7 @@ struct CategoryItem: View {
                 .foregroundColor(.primary)
                 .font(.title3)
             
-            Text("\(String(format: "%.2f", product.price))")
+            Text("\(String(format: "%.2f", product.price)) PLN")
                 .fontWeight(.bold)
                 .foregroundColor(.primary)
                 .font(.headline)
