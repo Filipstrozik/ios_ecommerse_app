@@ -17,7 +17,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
             }
             .listStyle(InsetListStyle())
-            .navigationTitle("Polecane")
+            .navigationTitle("el Cartel poleca:")
             .toolbar {
                 Text("\(String(modelProductData.profile.products.map{$0.price}.reduce(0,+))) PLN"
                 )
