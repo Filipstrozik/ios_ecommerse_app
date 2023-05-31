@@ -17,7 +17,8 @@ struct LandmarkDetail: View {
 //            CircleImage(image: product.image)
 //                .offset(y: -60)
 //                .padding(.bottom, -130)
-                
+            
+            
             Image(product.imageName).resizable().frame(width: 400, height: 400)
             VStack(alignment: .leading) {
                 VStack {

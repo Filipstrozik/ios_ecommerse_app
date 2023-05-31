@@ -31,7 +31,7 @@ struct FavouriteHome: View {
                         ProfileHost()
                             .environmentObject(modelData)
                     }
-                }
+                }.navigationViewStyle(.stack)
     }
     
     struct FavouriteHome_Previews: PreviewProvider {

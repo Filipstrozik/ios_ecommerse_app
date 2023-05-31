@@ -55,7 +55,7 @@ struct SearchHome: View {
                                 })
                     )
             }
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 

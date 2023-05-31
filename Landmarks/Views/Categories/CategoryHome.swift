@@ -31,7 +31,7 @@ struct CategoryHome: View {
                     .environmentObject(modelProductData)
             }
 
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 

@@ -38,7 +38,7 @@ struct LandmarkList: View {
                 ProfileHost()
                     .environmentObject(modelData)
             }
-        }
+        }.navigationViewStyle(.stack)
 //                NavigationView {
 //                    List {
 //                        Toggle(isOn: $showFavoritesOnly) {
